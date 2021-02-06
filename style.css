@@ -1,0 +1,46 @@
+body{
+    font-family: 'Chelsea Market', 'Gamja Flower';
+    background-color: white;
+}
+.header {
+    
+    font-family: 'Chelsea Market', 'Gamja Flower';
+    background-color: #e4572e;
+    text-align: center;
+    border: 10px solid;
+    border-color: white;
+    /* text-shadow: 1px 2px white;  */
+    
+}
+.so_fresh{
+    color: white;
+    
+
+}
+.container-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.container-1 >div{
+    border: 1px #ccc solid;
+    padding: 10px;
+    flex-direction: column;
+    border: 7px black solid;
+    margin-top: 5px;
+    border-bottom: 3px red solid;
+    width: 60%;
+
+
+}
+.firstbox{
+    flex: 2;
+    order: 2;
+}
+.secondbox{
+    flex: 2;
+    order: 2;
+
+}
