@@ -7,7 +7,7 @@ body{
     font-family: 'Chelsea Market', 'Gamja Flower';
     background-color: #e4572e;
     text-align: center;
-    border: 10px solid;
+    border: 0px solid;
     border-color: white;
     /* text-shadow: 1px 2px white;  */
     
@@ -31,10 +31,14 @@ body{
     border: 7px black solid;
     margin-top: 5px;
     border-bottom: 3px red solid;
-    width: 60%;
-
-
+    width: 50%;
 }
+
+@media only screen and (max-width: 768px) {
+    .container-1 >div {
+      width: 95%;
+    }
+  }
 .firstbox{
     flex: 2;
     order: 2;
@@ -43,4 +47,8 @@ body{
     flex: 2;
     order: 2;
 
+}
+.button {
+    position: center;
+    border-bottom: 3px black solid;
 }
