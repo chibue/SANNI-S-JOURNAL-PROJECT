@@ -32,7 +32,7 @@ body{
     flex-direction: column;
     border: 7px black solid;
     margin-top: 5px;
-    border-bottom: 3px red solid;
+    /* border-bottom: 3px red solid; */
     width: 50%;
 }
 
@@ -44,13 +44,68 @@ body{
 .firstbox{
     flex: 2;
     order: 2;
+    box-shadow: 2px 2px red;
 }
 .secondbox{
     flex: 2;
     order: 2;
+    box-shadow: 2px 2px red;
 
 }
 .button {
     position: center;
     border-bottom: 3px black solid;
+}
+
+.add-note-btn {
+	padding: 10px 200px;
+	background:  #050401;
+	color: white;
+	box-shadow: 3px 3px 0 0 #e4572e;
+    
+}
+#note-count{
+	font-weight: bold;
+}
+
+.add-form {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1;
+}
+
+.add-form form {
+	width: 400px;
+	margin: 10% auto;
+	border: 2px solid transparent;
+	padding: 1rem 2.5rem;
+	background: #fff;
+}
+.add-form form input, .add-form form textarea {
+	width: 70%;
+	display: block;
+	border: 1px solid #050401;
+	border-radius:5px;
+	margin: 10px auto;
+	padding-left: 10px;
+	outline: none;
+}
+
+.add-form form input {
+	height: 30px;
+}
+.add-form form textarea {
+	height: 50px;
+}
+.add-form form button {
+		margin: 10px auto;
+		color: #fff;
+		background: #e4572e;
+		padding: 10px 20px;
+		border: 0;
 }
